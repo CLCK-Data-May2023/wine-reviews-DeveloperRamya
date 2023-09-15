@@ -12,7 +12,7 @@ summary_df.reset_index(inplace=True)
 summary_df = summary_df.sort_values(by='count',ascending =False)
 
 # Save the summary data to a new CSV file
-summary_df.to_csv('data/reviews-per-country.csv', sep='\t', index=False)
+summary_df.to_csv('data/reviews-per-country.csv', index=False)
 
 print("Summary data has been saved to 'data/reviews-per-country.csv'")
 
